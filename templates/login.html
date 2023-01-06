@@ -1,0 +1,27 @@
+<html>
+  <body>
+    <head>
+      <style>
+        .center {
+          margin: auto;
+          width: 60%;
+          border: 3px solid #73AD21;
+          padding: 10px;
+          text-align: center;
+        }
+        </style>
+    </head>
+    <div class="center">
+    {% block title %}Login Page{% endblock %}
+    {% block content %}
+    <form action="#" method="POST">
+	  <p>Name:</p>
+	  <p><input type="text" name="name" /></p>  
+    <p>Phone Number:</p>
+    <p><input type="integer" name="pnum" /></p>  
+	  <p><input type="submit" value="submit"/></p>  
+    </form>
+    {% endblock %}
+    </div>
+  </body>
+</html>

@@ -1,0 +1,160 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN FORM</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style>
+		.form_bg{
+	background: linear-gradient(to bottom,#B58E6D,#000);
+	height: 100vh;
+	display: flex;
+	align-items: center;
+
+	}
+
+	.form_horizontal{
+		font-family: 'lato', sans-serif;
+		text-align: center;
+		float: center;
+	}
+
+	.form_horizontal .form_icon{
+		color: #fff;
+		font-size: 100px;
+		line-height: 85px;
+		margin: 0 0 13px;
+	}
+
+	.form_horizontal .title{
+		margin-left:8 20px;
+		color: #fff;
+		font-size: 23px;
+		font-weight: 700;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		margin: 0 0 35px 0;
+		float: center;
+	}
+
+	.form_horizontal .form-group{
+		margin: 0 0 10px;
+		position: relative;
+	}
+
+	.form_horizontal .input-icon{
+		position: absolute;
+		left: 15px;
+		top: 50%;
+		transform: translateY(-50%);
+		font-size: 13px;
+		color: #777;
+	}
+	.form_horizontal .form-control{
+		color: #555;
+		background-color: #fff;
+		font-size: 13px;
+		height: 37px;
+		padding: 2px 15px 2px 35px;
+		border: none;
+		border-radius: 50px;
+
+	}
+	.form_horizontal .form-control::placeholder{
+		color: rgb(0,0,0,0.7);
+		font-size: 14px;
+		text-transform: capitalize;
+	}
+
+	.form_horizontal .btn{
+		color: #fff;
+		background-color: #222;
+		font-size: 15px;
+		font-weight: 600;
+		letter-spacing: 1px;
+		width: 100%;
+		padding: 10px 20px;
+		margin: 0 0 15px;
+		border: none;
+		border-radius: 20px;
+		text-transform: uppercase;  
+	}
+
+
+	.button{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+	}
+
+	.btn{
+		color: #fff;
+		background-color: #222;
+		font-size: 15px;
+		font-weight: 600;
+		letter-spacing: 1px;
+		width: 100%;
+		padding: 10px 20px;
+		margin: 0 0 15px;
+		border: none;
+		border-radius: 20px;
+		text-transform: uppercase;
+
+	}
+
+
+	.form_horizontal .form-options{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	.form_horizontal .form-options li a{
+		color: #fff;
+		letter-spacing: 0.5px;
+		margin: 0 0 10px;
+		display: block;
+	}
+
+	.form_horizontal .form-options li a i{
+		font-size: 12px;
+	}
+	</style>
+</head>
+<body>
+	<form action="#" method="POST">
+	<div class="form_bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6">
+					<form class="form_horizontal">
+						<div class="form_icon"><i class="fa fa-user-circle"></i></div>
+						<h3 class="title">login form</h3>
+						<div class="form-group">
+							<span class="input-icon"><i class="fa fa-user"></i></span>
+							<input class="form-control" type="text" name="name" placeholder="username">
+						</div>
+						<div class="form-group">
+							<span class="input-icon"><i class="fa fa-lock"></i></span>
+							<input class="form-control" type="text" name="pnumber" placeholder="password">
+						</div>
+
+						<div class="button">
+						<p><input type="submit" value="submit"/></p> 
+						</div>
+						<ul class="form-options">
+							<li><a href="#">forgot username / password</a></li>
+							<li><a href="#">Create New Account<i class="fa fa-arrow-right"></i></a></li>
+						</ul>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	</form>
+</body>
+</html>
